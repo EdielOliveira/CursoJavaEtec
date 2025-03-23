@@ -19,11 +19,11 @@ public class Agenda05TI {
         for (char c: caracteres) {
             int valorAsciiOriginal = (int) c;
             int valorAsciiCriptografado = valorAsciiOriginal + 10;
-            char caractereCriptografado = (char) valorAsciiCriptografado;
+            char caracteresCriptografado = (char) valorAsciiCriptografado;
 
             asciiOriginal += valorAsciiOriginal + " ";
             asciiCriptografado += valorAsciiCriptografado + " ";
-            mensagemCriptografada.append(caractereCriptografado);
+            mensagemCriptografada.append(caracteresCriptografado);
         }
 
         //Exibir o valor Ascii Original

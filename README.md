@@ -1,42 +1,13 @@
-<h2 align="center"> Repositório de Códigos Java - ETEC </h2>  
-
-<h3 align="left">
-  Este repositório contém códigos desenvolvidos durante as aulas de programação da ETEC. Os arquivos são exemplos de atividades práticas e projetos realizados ao longo do curso, utilizando Java. O objetivo é organizar e compartilhar o aprendizado adquirido nas aulas, com foco na programação e resolução de problemas.
-
-Estrutura do Repositório
-Este repositório contém vários códigos Java, cada um focado em conceitos específicos de programação, como:
-
-<div align="center">
-  
-```
-<Estruturas de Controle>
-```
-```
-<Manipulação de Strings>
-```
-```
-<Uso de Arrays e Coleções>
-```
-```
-<Criptografia Simples>
-```
-```
-<Interface Gráfica com JOptionPane">
-```
-</div>
-
-Os códigos estão organizados de forma que cada exemplo aborda um tema ou conceito diferente.
-</h3>
-
-<h2 align="center"> Agenda05TI </h2>
+<h2 align="center"> Agenda 05 – Java | ETEC </h2>
 
 <div align="center">
 
-![GitHub repo size](https://img.shields.io/github/repo-size/EdielOliveira/Sistemas?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/EdielOliveira/CursoJavaEtec?style=for-the-badge)
 
 [![My Skills](https://skillicons.dev/icons?i=java,idea&theme=dark)](https://skillicons.dev)
 
 </div>
+
 <div align="center">
 
 ![image](http://www.unow.com.br/emDesenvolvimento.gif)
@@ -46,49 +17,156 @@ Os códigos estão organizados de forma que cada exemplo aborda um tema ou conce
 </div>
 
 <div align="center">
+  
+## 📑 Índice
+  
+- [Abrindo o Código](#-abrindo-o-código)
+- [Visão Geral](#visão-geral)
+- [O que o Projeto Faz](#-o-que-o-projeto-faz)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Desenvolvedor](#-desenvolvedor)
 
-## 🚀 Abrindo o Codigo
+</div>
 
-Para abrir o Codigo feito pelo IDE Eclipse, siga estas etapas:
+<h1 align="left">
+🚀 Abrindo o Código
+</h1>
 
-windows, Macs e Linux:
+Este projeto foi desenvolvido em **Java**, utilizando conceitos básicos da linguagem, e pode ser analisado diretamente pelo código-fonte.
+
+### Para acessar o código:
+
 ```
-<Abra "src">
+Abra a pasta **`src/`**
 ```
 ```
-<Clique Em "Agenda05TI_III":>
+Acesse a pasta **`Agenda05TI_III`**
 ```
 ```
-E Pronto :D
+O código principal estará disponível para leitura e análise
 ```
 
-<h3 align="left"> Um dos exemplos práticos contidos neste repositório é o código Agenda05TI.
-  Este código realiza uma simples criptografia de uma string inserida pelo usuário. 
-  O programa recebe uma string, converte cada caractere para seu valor ASCII, adiciona um valor fixo (no caso, +10), 
-  e converte de volta para o caractere correspondente, criando uma mensagem criptografada.
-</h3>
+<h1 align="center">
+Visão Geral
+</h1>
 
-## 💻 Tecnologia Utilizadas
+Este repositório contém um projeto simples em **Java**, desenvolvido como parte da **Agenda 05** do curso técnico em **Desenvolvimento de Sistemas** na **ETEC**.
 
-<h3 align="left">
+O objetivo do projeto é **praticar lógica de programação**, manipulação de **Strings**, uso de **estruturas básicas** da linguagem Java e interação com o usuário por meio de **interface gráfica simples**.
 
-  1. EJOptionPane: Utilizado para criar caixas de diálogo gráficas para entrada e exibição de mensagens.
-2. Java: A linguagem de programação principal utilizada nos códigos.
- 
-</h3>
+Todo o conteúdo do projeto está concentrado em **uma única pasta**, facilitando o entendimento e a análise do código.
+
+<h1 align="left">
+📌 O que o Projeto Faz
+</h1>
+
+O projeto **Agenda 05** implementa um **exemplo simples de criptografia de texto**, com funcionamento didático.
+
+### Funcionamento:
+
+1. O usuário insere uma **mensagem de texto**
+2. O programa converte cada caractere da mensagem para seu **valor ASCII**
+3. É aplicado um **deslocamento fixo (+10)** sobre cada caractere
+4. O valor modificado é convertido novamente para caractere
+5. O resultado final é exibido como uma **mensagem criptografada**
+
+📌 Trata-se de uma **criptografia simples**, criada exclusivamente para fins educacionais, com foco em:
+- Lógica
+- Manipulação de caracteres
+- Conversão entre tipos de dados
+
+<h1 align="left">
+📘 Conceitos Utilizados no Projeto
+</h1>
+
+🔤 O que é ASCII?
+
+ASCII (*American Standard Code for Information Interchange*) é uma **tabela de códigos numéricos** utilizada para representar caracteres como:
+
+- Letras (A–Z, a–z)
+- Números (0–9)
+- Símbolos (!, @, #, etc.)
+- Caracteres especiais
+
+Cada caractere possui um **valor numérico único**.  
+Por exemplo:
+
+- `A` → 65  
+- `a` → 97  
+- `E` → 69  
+- `e` → 101  
+
+📌 **No contexto deste projeto**, o ASCII é utilizado para:
+- Converter cada caractere da string digitada pelo usuário em um número
+- Aplicar uma lógica matemática sobre esse número
+- Converter o resultado novamente para caractere
+
+➕ Lógica do Deslocamento (+10)
+
+Após converter cada caractere para seu valor ASCII, o projeto aplica um **deslocamento fixo de +10**.
+
+### Como funciona na prática:
+
+1. O usuário digita uma string (exemplo: `Ediel`)
+2. Cada letra é convertida para seu valor ASCII  
+3. O valor **+10** é somado
+4. O novo valor é convertido de volta para caractere
+5. O resultado forma a **mensagem criptografada**
+
+### Exemplo simplificado:
+
+- `E` → ASCII **69** → 69 + 10 = **79** → `O`
+- `d` → ASCII **100** → 100 + 10 = **110** → `n`
+
+Esse processo acontece **letra por letra**, gerando uma nova string.
+
+📌 Essa técnica é inspirada em conceitos básicos de **criptografia por deslocamento**, como a **Cifra de César**, sendo aplicada aqui **exclusivamente para fins educacionais**.
+
+<h2 align="center">📊 Demonstração ASCII + Funcionamento do Projeto</h2>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Tabela ASCII</b><br><br>
+      <img 
+        src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/05/ascii-7bits-v2.png" 
+        width="400"
+        alt="Tabela ASCII"
+      />
+    </td>
+    <td align="center">
+      
+https://github.com/user-attachments/assets/c9719050-f59f-402a-83f1-e8d2df5df62f
+
+  </td>
+</table>
+
+<h1 align="left">
+💻 Tecnologias Utilizadas
+</h1>
+
+- **Java** – Linguagem principal do projeto  
+- **JOptionPane** – Utilizado para entrada e exibição de mensagens em janelas gráficas  
+- **IDE (IntelliJ IDEA)** – Ambiente de desenvolvimento
 
 
-<h1 style: align="center">🤝 Desenvolvedor</h1>
+<h1 align="center">🤝 Desenvolvedor</h1>
 
-<table style: align="center">
+<table align="center">
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/113260177?s=400&u=347f2b3ae130a0f7c84f0946b4278cd2581e8b16&v=4" width="150px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="https://avatars.githubusercontent.com/u/113260177?s=400&v=4" width="150px;" alt="Foto do Desenvolvedor"/><br>
         <sub>
-          <b>EdielOliveira</b>
+          <b>Ediel Oliveira</b>
         </sub>
       </a>
-    </td>   
-    </table>
-    
-       Esse projeto foi feito a patir de Aulas de um Curso, na ETEC, Atualmente Cursando Desenvolvimento de Sistemas 
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/12d933c6-c44f-4ed8-95ab-ec92d5b65256" width="150px;" alt="Foto do Desenvolvedor"/><br>
+    </td>
+  
+</table>
+
+<p align="center">
+Projeto desenvolvido como atividade acadêmica na ETEC, durante o curso técnico em Desenvolvimento de Sistemas.
+</p>
